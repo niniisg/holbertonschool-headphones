@@ -477,6 +477,57 @@ body {
       width: 200px;
       height: auto;
   }
+  /* Media Queries */
+
+
+@media (max-width: 768px) {
+   .our-results {
+      padding: 60px 15px;
+   }
+   .results-container {
+      flex-direction: column;
+   }
+   .pentagon {
+      flex: 1 1 100%;
+      width: 90%;
+      height: auto;
+      margin-bottom: 20px;
+   }
+   .pentagon h3 {
+      font-size: 36px;
+      top: 20%;
+   }
+   .pentagon p {
+      font-size: 14px;
+      top: 50%;
+   }
+   .speack-results p {
+      font-size: 1rem;
+   }
+}
+
+@media (max-width: 480px) {
+   .our-results {
+      padding: 40px 10px;
+   }
+   .pentagon {
+      flex: 1 1 100%;
+      width: 100%;
+      height: 250px;
+      margin-bottom: 15px;
+   }
+   .pentagon h3 {
+      font-size: 30px;
+      top: 25%;
+   }
+   .pentagon p {
+      font-size: 12px;
+      top: 60%;
+   }
+   .speack-results p {
+      font-size: 0.8rem;
+   }
+}
  /*Contact us */
 
 /* General section styling */
